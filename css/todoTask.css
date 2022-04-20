@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 24px;
+  display: block;
+}
+li, ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+.SelectedTodo{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 64px;
+  align-items: center;
+  justify-content:center;
+  vertical-align: middle;
+  display: flex;
+  margin-bottom: 100px
+}
+
+.round{
+  width: 200px;
+  height: 200px;
+  border: 7px solid black;
+  background: #000;
+  border-radius: 50%;
+  line-height: 200px;   /*подробнее про line-height */
+  margin-right: 70px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+  float: left;
+  margin: 20px;
+}
+.nameTodo{
+  margin-left: 50px;
+}
+.container {
+	width: 625px;
+	/*позиционирование по центру*/
+  height: 625px;
+	margin: 0 auto;
+  text-align: center;
+  font-size: 32px;
+  align-items: center;
+  justify-content:center;
+  font-weight: 400;
+}
+pre{
+  margin-top: auto;
+  vertical-align: middle;
+  float: inherit;
+  align-items: center;
+  text-align: justify;
+}
