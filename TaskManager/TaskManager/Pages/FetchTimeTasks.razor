@@ -1,0 +1,77 @@
+@page "/fetchTimeTasks"
+
+<PageTitle>Weather forecast</PageTitle>
+
+@using TaskManager.Data
+@using TaskManager.Data.Models
+@using TaskManager.Data.Services
+@using System.Timers
+@inject WeatherForecastService ForecastService
+
+<h1>Time Tasks.</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+@if (_tasks == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Is Done</th>
+            <th>Duration</th>
+            <th>Current state</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (TimeTask task in _tasks)
+        {
+            <tr>
+                <td>@task.Title</td>
+                <td>@task.IsDone</td>
+                <td>@task.CurrentState</td>
+                <td>@task.CurrentTime</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    @counter
+}
+
+@code {
+    private int counter = 0;
+    private ITaskService _service = new TimeTaskService();
+    private BaseTask[]? _tasks;
+    private Timer? _renderTimer = new Timer();
+    private JSRuntime _jsRuntime ;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _tasks = _service.GetTasks().ToArray();
+
+        _renderTimer.Interval = 1000;
+        _renderTimer.Enabled = true;
+        _renderTimer.Elapsed += (sender, e) =>
+        {
+            //StateHasChanged();
+            counter++;
+            _tasks = _service.GetTasks().ToArray();
+            TimeTask _t = _tasks[_tasks.Length - 1] as TimeTask;
+            //Console.WriteLine("Timer" + _t.CurrentTime.ToString());
+
+            InvokeAsync(() =>
+            {
+                StateHasChanged();
+            });
+        };
+    }
+
+    
+
+}

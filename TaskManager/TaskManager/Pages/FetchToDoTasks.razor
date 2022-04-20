@@ -1,0 +1,57 @@
+﻿@page "/fetchToDoTasks"
+
+<PageTitle>Weather forecast</PageTitle>
+
+@using TaskManager.Data
+@using TaskManager.Data.Models
+@using TaskManager.Data.Services
+@inject WeatherForecastService ForecastService
+
+<h1>TODO Tasks.</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+@if (_tasks == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Is Done</th>
+            <th>Description</th>
+            <th>Deadline</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (ToDoTask task in _tasks)
+        {
+            <tr>
+                <td>@task.Title</td>
+                <td>@task.IsDone</td>
+                <td>@task.Description</td>
+                <td>@task.Deadline</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private ITaskService _service = new ToDoTaskService();
+    private BaseTask[]? _tasks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var newTask = new ToDoTask();
+        newTask.Description = "Created on page todo task"; 
+        _service.CreateTask(newTask);
+        _tasks = _service.GetTasks().ToArray();
+    }
+
+}

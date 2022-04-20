@@ -1,0 +1,12 @@
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/bin/Debug/net6.0/TaskManagerLib.deps.json
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/bin/Debug/net6.0/TaskManagerLib.dll
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/bin/Debug/net6.0/TaskManagerLib.pdb
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.csproj.AssemblyReference.cache
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.AssemblyInfoInputs.cache
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.AssemblyInfo.cs
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.csproj.CoreCompileInputs.cache
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.dll
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/refint/TaskManagerLib.dll
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.pdb
+/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/obj/Debug/net6.0/ref/TaskManagerLib.dll
