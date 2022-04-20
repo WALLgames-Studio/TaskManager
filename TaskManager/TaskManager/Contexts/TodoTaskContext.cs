@@ -10,26 +10,26 @@ public class TodoTaskContext : ITaskContext
         new ToDoTask("t2")
     };
 
-    public IEnumerable<BaseTask> CreateTask(BaseTask task)
+    public async Task<IEnumerable<BaseTask>> CreateTaskAsync(BaseTask task)
     {
         ToDoTask newTask = task as ToDoTask;
         _tasks.Add(newTask);
 
-        return _tasks;
+        return await GetTasksAsync();
     }
 
-    public IEnumerable<BaseTask> GetTasks()
+    public async Task<IEnumerable<BaseTask>> GetTasksAsync()
     {
         return _tasks;
     }
 
-    public BaseTask GetTask(Guid id)
+    public async Task<BaseTask> GetTaskAsync(Guid id)
     {
         ToDoTask task = _tasks.FirstOrDefault(t => t.Id == id);
         return task;
     }
 
-    public BaseTask UpdateTask(Guid id, BaseTask updatedTask)
+    public async Task<BaseTask> UpdateTaskAsync(Guid id, BaseTask updatedTask)
     {
         ToDoTask newTask = _tasks.FirstOrDefault(t => t.Id == id);
 

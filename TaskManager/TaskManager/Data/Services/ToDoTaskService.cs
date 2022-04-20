@@ -11,27 +11,28 @@ public class ToDoTaskService :ITaskService
     public ToDoTaskService()
     {
         _context = new TodoTaskContext();
-        _tasks = GetTasks().ToList();
+        _tasks = GetTasksAsync().Result.ToList();
     }
-    public IEnumerable<BaseTask> CreateTask(BaseTask task)
+    public async Task<IEnumerable<BaseTask>> CreateTaskAsync(BaseTask task)
     {
-        _tasks = _context.CreateTask(task);
+        var newTask = task as ToDoTask;
+        _tasks = _context.CreateTaskAsync(newTask).Result.ToArray();
         return _tasks;
     }
 
-    public IEnumerable<BaseTask> GetTasks()
+    public Task<IEnumerable<BaseTask>> GetTasksAsync()
     {
-        return _context.GetTasks();
+        return _context.GetTasksAsync();
     }
 
-    public BaseTask GetTask(Guid id)
+    public Task<BaseTask> GetTaskAsync(Guid id)
     {
-        return _context.GetTask(id);
+        return _context.GetTaskAsync(id);
     }
 
-    public BaseTask UpdateTask(Guid id, BaseTask updatedTask)
+    public Task<BaseTask> UpdateTaskAsync(Guid id, BaseTask updatedTask)
     {
-        return _context.UpdateTask(id, updatedTask);
+        return _context.UpdateTaskAsync(id, updatedTask);
     }
 
     public void DeleteTask(Guid id)

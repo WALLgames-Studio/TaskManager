@@ -53,18 +53,15 @@ else
     
     protected override async Task OnInitializedAsync()
     {
-        _tasks = _service.GetTasks().ToArray();
+        _tasks = _service.GetTasksAsync().Result.ToArray();
 
         _renderTimer.Interval = 1000;
         _renderTimer.Enabled = true;
         _renderTimer.Elapsed += (sender, e) =>
         {
-            //StateHasChanged();
             counter++;
-            _tasks = _service.GetTasks().ToArray();
+            _tasks = _service.GetTasksAsync().Result.ToArray();
             TimeTask _t = _tasks[_tasks.Length - 1] as TimeTask;
-            //Console.WriteLine("Timer" + _t.CurrentTime.ToString());
-
             InvokeAsync(() =>
             {
                 StateHasChanged();

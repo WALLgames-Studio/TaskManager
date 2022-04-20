@@ -9,90 +9,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d7e161-e27c-4b70-a450-229a883a1021" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Contexts/ITaskContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Contexts/TimeTaskContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Contexts/TodoTaskContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Data/Models/BaseTask.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Data/Models/TimeTask.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Data/Models/ToDoTask.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Data/Services/ITaskService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Data/Services/TimeTaskService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Data/Services/ToDoTaskService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/Pages/FetchTimeTasks.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.staticwebassets.runtime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManagerLib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManagerLib.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/ref/TaskManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/refint/TaskManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/scopedcss/bundle/TaskManager.styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/scopedcss/projectbundle/TaskManager.bundle.scp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/TaskManager.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/TaskManager.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/TaskManager.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManager/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/ITimer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/TaskManagerLib.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/TimerHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/bin/Debug/net6.0/TaskManagerLib.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/bin/Debug/net6.0/TaskManagerLib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/bin/Debug/net6.0/TaskManagerLib.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/TaskManagerLib.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/ref/TaskManagerLib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/Debug/net6.0/refint/TaskManagerLib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/TaskManagerLib.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/TaskManagerLib.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/TaskManagerLib.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskManagerLib/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Contexts/ITaskContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Contexts/ITaskContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Contexts/TimeTaskContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Contexts/TimeTaskContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Contexts/TodoTaskContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Contexts/TodoTaskContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Data/Services/ITaskService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Data/Services/ITaskService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Data/Services/TimeTaskService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Data/Services/TimeTaskService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Data/Services/ToDoTaskService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Data/Services/ToDoTaskService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Pages/FetchTimeTasks.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Pages/FetchTimeTasks.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/Pages/FetchToDoTasks.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Pages/FetchToDoTasks.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/net6.0/TaskManager.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/TaskManager.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/ref/TaskManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/ref/TaskManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/refint/TaskManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/net6.0/refint/TaskManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +107,7 @@
       <updated>1650192515958</updated>
       <workItem from="1650192525870" duration="17541000" />
       <workItem from="1650457685488" duration="1671000" />
+      <workItem from="1650467085003" duration="2123000" />
     </task>
     <servers />
   </component>
@@ -198,24 +131,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TaskManager/Contexts/TimeTaskContext.cs</url>
-          <line>72</line>
-          <properties documentPath="$PROJECT_DIR$/TaskManager/Contexts/TimeTaskContext.cs" initialLine="71" containingFunctionPresentation="method 'SetupTimerTask'">
-            <startOffsets>
-              <option value="1918" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1919" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

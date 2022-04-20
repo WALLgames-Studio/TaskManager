@@ -11,33 +11,33 @@ public class TimeTaskService : ITaskService
     public TimeTaskService()
     {
         _context = new TimeTaskContext();
-        _tasks = GetTasks().ToList();
+        _tasks = GetTasksAsync().Result.ToList();
         
         var newTask = new TimeTask();
         newTask.Duration = TimeSpan.FromMinutes(50);
         newTask.WorkPeriod = TimeSpan.FromMinutes(20);
-        _context.CreateTask(newTask);
-        _tasks = _context.GetTasks().ToArray();
+        _context.CreateTaskAsync(newTask);
+        _tasks = _context.GetTasksAsync().Result.ToArray();
     }
-    public IEnumerable<BaseTask> CreateTask(BaseTask task)
+    public async Task<IEnumerable<BaseTask>> CreateTaskAsync(BaseTask task)
     {
-        _tasks = _context.CreateTask(task);
-        return _tasks;
-    }
-
-    public IEnumerable<BaseTask> GetTasks()
-    {
-        return _context.GetTasks();
+        _tasks = _context.CreateTaskAsync(task).Result.ToArray();
+        return await GetTasksAsync();
     }
 
-    public BaseTask GetTask(Guid id)
+    public async Task<IEnumerable<BaseTask>> GetTasksAsync()
     {
-        return _context.GetTask(id);
+        return await _context.GetTasksAsync();
     }
 
-    public BaseTask UpdateTask(Guid id, BaseTask updatedTask)
+    public async Task<BaseTask> GetTaskAsync(Guid id)
     {
-        return _context.UpdateTask(id, updatedTask);
+        return await _context.GetTaskAsync(id);
+    }
+
+    public Task<BaseTask> UpdateTaskAsync(Guid id, BaseTask updatedTask)
+    {
+        return _context.UpdateTaskAsync(id, updatedTask);
     }
 
     public void DeleteTask(Guid id)

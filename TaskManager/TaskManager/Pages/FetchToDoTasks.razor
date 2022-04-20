@@ -50,8 +50,8 @@ else
     {
         var newTask = new ToDoTask();
         newTask.Description = "Created on page todo task"; 
-        _service.CreateTask(newTask);
-        _tasks = _service.GetTasks().ToArray();
+        await _service.CreateTaskAsync(newTask);
+        _tasks = _service.GetTasksAsync().Result.ToArray();
     }
 
 }
