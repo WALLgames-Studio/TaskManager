@@ -28,3 +28,33 @@
 /Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManagerLib.dll
 /Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManagerLib.pdb
 /Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.csproj.CopyComplete
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/appsettings.Development.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/appsettings.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManager.staticwebassets.runtime.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManager
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManager.deps.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManager.runtimeconfig.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManager.dll
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManager.pdb
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManagerLib.dll
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/bin/Debug/net6.0/TaskManagerLib.pdb
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.csproj.AssemblyReference.cache
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.AssemblyInfoInputs.cache
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.AssemblyInfo.cs
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.csproj.CoreCompileInputs.cache
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.MvcApplicationPartsAssemblyInfo.cache
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.RazorAssemblyInfo.cache
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.RazorAssemblyInfo.cs
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/staticwebassets.build.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/staticwebassets.development.json
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/scopedcss/bundle/TaskManager.styles.css
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/scopedcss/projectbundle/TaskManager.bundle.scp.css
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.csproj.CopyComplete
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.dll
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/refint/TaskManager.dll
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.pdb
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/TaskManager.genruntimeconfig.cache
+/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/Debug/net6.0/ref/TaskManager.dll

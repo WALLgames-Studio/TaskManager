@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{7F59FC42-09F9-4358-BD4B-F94474B1470E}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TaskManager PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Documents/Documents - User’s MacBook Pro/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/ITimer.cs">
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskManager" expanded="True" selected="True">
+            <Node name="TaskManager" expanded="True" />
+            <Node name="TaskManagerLib" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

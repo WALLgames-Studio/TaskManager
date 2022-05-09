@@ -27,34 +27,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "/Users/aceglei/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManager/TaskManager.csproj",
+      "projectUniqueName": "/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManager/TaskManager.csproj",
-      "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManager/obj/",
+      "projectPath": "/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/TaskManager.csproj",
+      "packagesPath": "/Users/aceglei/.nuget/packages/",
+      "outputPath": "/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/user/.nuget/NuGet/NuGet.Config"
+        "/Users/aceglei/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://newbridges.pkgs.visualstudio.com/Todo/_packaging/3rdPartyPackages/nuget/v3/index.json": {},
-        "https://newbridges.pkgs.visualstudio.com/_packaging/DevelopmentFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/TaskManagerLib.csproj": {
-              "projectPath": "/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/TaskManagerLib.csproj"
+            "/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManagerLib/TaskManagerLib.csproj": {
+              "projectPath": "/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManagerLib/TaskManagerLib.csproj"
             }
           }
         }
@@ -86,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
