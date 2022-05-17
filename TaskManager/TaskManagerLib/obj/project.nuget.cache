@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/hNifxME8xNrLYqpYAA/DDKihllk740TcnsoQ0wU1O/8wsUPD0MA9QU2hdXiVav6XzXPGTGRmtMk2BEAD5cb2A==",
+  "dgSpecHash": "61pGWnhttgNUHnJ6N6Vky/P0VOcraqww7MJDyfS/h5OqINcDi1CFoOc0YVl0A83c5zDdWEg/PzVX3hS7oymrwQ==",
   "success": true,
-  "projectFilePath": "/Users/user/Documents/3rdYear/Second Semester/ASO/PlannerRepo/TaskManager/TaskManager/TaskManagerLib/TaskManagerLib.csproj",
+  "projectFilePath": "/Users/aceglei/Development/TaskManagerRepo/TaskManager/TaskManager/TaskManagerLib/TaskManagerLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,143 @@
+body[b-mw7wxuzkfl] {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+li[b-mw7wxuzkfl], ul[b-mw7wxuzkfl] {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.TimeTask_head[b-mw7wxuzkfl] {
+    width: 20%;
+}
+
+.TodoTask_head[b-mw7wxuzkfl] {
+    width: 20%;
+    height: 70px;
+}
+
+.bord_head[b-mw7wxuzkfl] {
+    width: 5px;
+}
+
+
+.Selected[b-mw7wxuzkfl] {
+    margin-top: inherit;
+    text-align: center;
+    font-size: 48px;
+}
+
+table[b-mw7wxuzkfl] {
+    width =100%;
+    height =100%;
+}
+
+.content[b-mw7wxuzkfl] {
+    text-align: center;
+    align-items: center;
+}
+
+a[b-mw7wxuzkfl] {
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+
+.round[b-mw7wxuzkfl] {
+    align-self: center;
+    width: 165px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 50%;
+    line-height: 165px; /*подробнее про line-height */
+    text-align: center; /* выравнять текст по середине по горизонтали */
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+    .round:hover[b-mw7wxuzkfl] {
+        box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        transform: scale(1.1);
+    }
+
+.newTime img[b-mw7wxuzkfl] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    align: center;
+}
+
+.round p[b-mw7wxuzkfl] {
+    margin: auto;
+    font-family: 'Roboto', thin;
+    font-size: 80px;
+}
+
+.bord[b-mw7wxuzkfl] {
+    height: 800px;
+    width: 4px;
+    background: #DCDCDC;
+    border-radius: 5px;
+}
+
+.butn[b-mw7wxuzkfl] {
+    width: 250px;
+    background: #000;
+    border-radius: 50px;
+    color: white;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Task .round[b-mw7wxuzkfl] {
+    width: 30px;
+    height: 30px;
+    background: black;
+    float: left;
+    margin: 20px;
+    position: absolute;
+}
+
+.TodoTask li[b-mw7wxuzkfl] {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskText[b-mw7wxuzkfl] {
+    margin-left: 80px;
+    float: right;
+}
+
+img[b-mw7wxuzkfl] {
+    display: block;
+    vertical-align: middle;
+}
+
+.newList[b-mw7wxuzkfl] {
+    float: inherit;
+    align-items: center;
+    align-content: center;
+}
+
+    .newList .round[b-mw7wxuzkfl] {
+        width: 51px;
+        height: 51px;
+    }
+
+
+
+.ourTime[b-mw7wxuzkfl] {
+}

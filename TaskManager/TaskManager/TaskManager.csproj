@@ -10,4 +10,12 @@
       <ProjectReference Include="..\TaskManagerLib\TaskManagerLib.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Shared\css\" />
+      <None Remove="Shared\img\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Shared\css\" />
+      <Folder Include="Shared\img\" />
+    </ItemGroup>
 </Project>

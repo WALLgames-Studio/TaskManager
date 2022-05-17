@@ -1,3 +1,435 @@
+/* _content/TaskManager/Pages/FetchTimeTasks.razor.rz.scp.css */
+body[b-rzywiyuy12] {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+li[b-rzywiyuy12], ul[b-rzywiyuy12] {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.TimeTask_head[b-rzywiyuy12] {
+    width: 20%;
+}
+
+.TodoTask_head[b-rzywiyuy12] {
+    width: 20%;
+    height: 70px;
+}
+
+.bord_head[b-rzywiyuy12] {
+    width: 5px;
+}
+
+
+.Selected[b-rzywiyuy12] {
+    margin-top: inherit;
+    text-align: center;
+    font-size: 48px;
+}
+
+table[b-rzywiyuy12] {
+    width =100%;
+    height =100%;
+}
+
+.content[b-rzywiyuy12] {
+    text-align: center;
+    align-items: center;
+}
+
+a[b-rzywiyuy12] {
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+
+.round[b-rzywiyuy12] {
+    align-self: center;
+    width: 165px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 50%;
+    line-height: 165px; /*подробнее про line-height */
+    text-align: center; /* выравнять текст по середине по горизонтали */
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+    .round:hover[b-rzywiyuy12] {
+        box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        transform: scale(1.1);
+    }
+
+.newTime img[b-rzywiyuy12] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    align: center;
+}
+
+.round p[b-rzywiyuy12] {
+    margin: auto;
+    font-family: 'Roboto', thin;
+    font-size: 80px;
+}
+
+.bord[b-rzywiyuy12] {
+    height: 800px;
+    width: 4px;
+    background: #DCDCDC;
+    border-radius: 5px;
+}
+
+.butn[b-rzywiyuy12] {
+    width: 250px;
+    background: #000;
+    border-radius: 50px;
+    color: white;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Task .round[b-rzywiyuy12] {
+    width: 30px;
+    height: 30px;
+    background: black;
+    float: left;
+    margin: 20px;
+    position: absolute;
+}
+
+.TodoTask li[b-rzywiyuy12] {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskText[b-rzywiyuy12] {
+    margin-left: 80px;
+    float: right;
+}
+
+img[b-rzywiyuy12] {
+    display: block;
+    vertical-align: middle;
+}
+
+.newList[b-rzywiyuy12] {
+    float: inherit;
+    align-items: center;
+    align-content: center;
+}
+
+    .newList .round[b-rzywiyuy12] {
+        width: 51px;
+        height: 51px;
+    }
+
+
+
+.ourTime[b-rzywiyuy12] {
+}
+/* _content/TaskManager/Pages/FetchToDoTasks.razor.rz.scp.css */
+body[b-mw7wxuzkfl] {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+li[b-mw7wxuzkfl], ul[b-mw7wxuzkfl] {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.TimeTask_head[b-mw7wxuzkfl] {
+    width: 20%;
+}
+
+.TodoTask_head[b-mw7wxuzkfl] {
+    width: 20%;
+    height: 70px;
+}
+
+.bord_head[b-mw7wxuzkfl] {
+    width: 5px;
+}
+
+
+.Selected[b-mw7wxuzkfl] {
+    margin-top: inherit;
+    text-align: center;
+    font-size: 48px;
+}
+
+table[b-mw7wxuzkfl] {
+    width =100%;
+    height =100%;
+}
+
+.content[b-mw7wxuzkfl] {
+    text-align: center;
+    align-items: center;
+}
+
+a[b-mw7wxuzkfl] {
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+
+.round[b-mw7wxuzkfl] {
+    align-self: center;
+    width: 165px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 50%;
+    line-height: 165px; /*подробнее про line-height */
+    text-align: center; /* выравнять текст по середине по горизонтали */
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+    .round:hover[b-mw7wxuzkfl] {
+        box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        transform: scale(1.1);
+    }
+
+.newTime img[b-mw7wxuzkfl] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    align: center;
+}
+
+.round p[b-mw7wxuzkfl] {
+    margin: auto;
+    font-family: 'Roboto', thin;
+    font-size: 80px;
+}
+
+.bord[b-mw7wxuzkfl] {
+    height: 800px;
+    width: 4px;
+    background: #DCDCDC;
+    border-radius: 5px;
+}
+
+.butn[b-mw7wxuzkfl] {
+    width: 250px;
+    background: #000;
+    border-radius: 50px;
+    color: white;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Task .round[b-mw7wxuzkfl] {
+    width: 30px;
+    height: 30px;
+    background: black;
+    float: left;
+    margin: 20px;
+    position: absolute;
+}
+
+.TodoTask li[b-mw7wxuzkfl] {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskText[b-mw7wxuzkfl] {
+    margin-left: 80px;
+    float: right;
+}
+
+img[b-mw7wxuzkfl] {
+    display: block;
+    vertical-align: middle;
+}
+
+.newList[b-mw7wxuzkfl] {
+    float: inherit;
+    align-items: center;
+    align-content: center;
+}
+
+    .newList .round[b-mw7wxuzkfl] {
+        width: 51px;
+        height: 51px;
+    }
+
+
+
+.ourTime[b-mw7wxuzkfl] {
+}
+/* _content/TaskManager/Pages/Index.razor.rz.scp.css */
+body[b-83u2h7ousy] {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+li[b-83u2h7ousy], ul[b-83u2h7ousy] {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.TimeTask_head[b-83u2h7ousy] {
+    width: 20%;
+}
+
+.TodoTask_head[b-83u2h7ousy] {
+    width: 20%;
+    height: 70px;
+}
+
+.bord_head[b-83u2h7ousy] {
+    width: 5px;
+}
+
+
+.Selected[b-83u2h7ousy] {
+    margin-top: inherit;
+    text-align: center;
+    font-size: 48px;
+}
+
+table[b-83u2h7ousy] {
+    width =100%;
+    height =100%;
+}
+
+.content[b-83u2h7ousy] {
+    text-align: center;
+    align-items: center;
+}
+
+a[b-83u2h7ousy] {
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+
+.round[b-83u2h7ousy] {
+    align-self: center;
+    width: 165px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 50%;
+    line-height: 165px; /*подробнее про line-height */
+    text-align: center; /* выравнять текст по середине по горизонтали */
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+    .round:hover[b-83u2h7ousy] {
+        box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        transform: scale(1.1);
+    }
+
+.newTime img[b-83u2h7ousy] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    align: center;
+}
+
+.round p[b-83u2h7ousy] {
+    margin: auto;
+    font-family: 'Roboto', thin;
+    font-size: 80px;
+}
+
+.bord[b-83u2h7ousy] {
+    height: 800px;
+    width: 4px;
+    background: #DCDCDC;
+    border-radius: 5px;
+}
+
+.butn[b-83u2h7ousy] {
+    width: 250px;
+    background: #000;
+    border-radius: 50px;
+    color: white;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Task .round[b-83u2h7ousy] {
+    width: 30px;
+    height: 30px;
+    background: black;
+    float: left;
+    margin: 20px;
+    position: absolute;
+}
+
+.TodoTask li[b-83u2h7ousy] {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskText[b-83u2h7ousy] {
+    margin-left: 80px;
+    float: right;
+}
+
+img[b-83u2h7ousy] {
+    display: block;
+    vertical-align: middle;
+}
+
+.newList[b-83u2h7ousy] {
+    float: inherit;
+    align-items: center;
+    align-content: center;
+}
+
+    .newList .round[b-83u2h7ousy] {
+        width: 51px;
+        height: 51px;
+    }
+
+
+
+.ourTime[b-83u2h7ousy] {
+}
 /* _content/TaskManager/Shared/MainLayout.razor.rz.scp.css */
 .page[b-gwgojk76m7] {
     position: relative;

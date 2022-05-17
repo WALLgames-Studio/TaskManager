@@ -8,6 +8,8 @@ public class ToDoTaskService :ITaskService
     private ITaskContext? _context;
     private IEnumerable<BaseTask>? _tasks;
 
+    public BaseTask? SelectedTask { get; set; }
+
     public ToDoTaskService()
     {
         _context = new TodoTaskContext();

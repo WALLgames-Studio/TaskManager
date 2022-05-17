@@ -1,9 +1,103 @@
-@page "/"
+﻿@page "/"
+@using TaskManager.Data.Models
+@using TaskManager.Data.Services
+@using System.Timers
+
+@inject TimeTaskService _timeService
+@inject ToDoTaskService _todoService
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Time</title>
+    <link rel="stylesheet" href="Shared/css/main.css">
+</head>
+<body>
+    <table height=100% width=100%>
+        <tr>
+            <th class="TimeTask_head">TIME TASK</th>
+            <th class="bord_head"></th>
+            <th></th>
+            <th class="bord_head"></th>
+            <th class="TodoTask_head">TODO TASK</th>
+        </tr>
+        <tr>
+            <td>
+                <FetchTimeTasks />
+            </td>
+            <td><div class="bord"></div></td>
+            <td>
+                <div class="Selected">
 
-Welcome to your new app.
+                    @if (SelectedTask == null)
+                    {
+                        <span>our page task</span>
+                    }
+                    else
+                    {
+                        if (SelectedTask is ToDoTask selectedTodoTask)
+                        {
+                            <a href="#">
+                                <div class="round"> </div>
+                                <div class="SelectedTodo"><p>@selectedTodoTask.Title</p></div>
+                            </a>
+                        }
+                        else if (SelectedTask is TimeTask selectedTimeTask)
+                        {
+                            <a href="#"><div class="SelectedTime">@selectedTimeTask.CurrentTime</div></a>
+                        }
 
-<SurveyPrompt Title="How is Blazor working for you?"/>
+                    }
+                </div>
+
+
+            </td>
+            <td><div class="bord"></div></td>
+            <td>
+                <FetchToDoTasks />
+
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td align="center"><a href="#"><div class="butn">DONE</div></a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+@code
+{
+    public BaseTask SelectedTask = new BaseTask();
+    private Timer? _renderTimer = new Timer();
+
+    protected override async Task OnInitializedAsync()
+    {
+        SelectedTask = _timeService.SelectedTask as TimeTask;
+
+        if (SelectedTask == null)
+        {
+            SelectedTask = _todoService.SelectedTask as ToDoTask;
+        }
+
+        _renderTimer.Interval = 1000;
+        _renderTimer.Enabled = true;
+        _renderTimer.Elapsed += (sender, e) =>
+        {
+            InvokeAsync(() =>
+            {
+                StateHasChanged();
+            });
+        };
+    }
+
+
+}

@@ -5,53 +5,51 @@
 @using TaskManager.Data
 @using TaskManager.Data.Models
 @using TaskManager.Data.Services
-@inject WeatherForecastService ForecastService
+@inject ToDoTaskService _service
 
-<h1>TODO Tasks.</h1>
-
-<p>This component demonstrates fetching data from a service.</p>
 
 @if (_tasks == null)
-{
-    <p>
-        <em>Loading...</em>
-    </p>
-}
-else
-{
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Title</th>
-            <th>Is Done</th>
-            <th>Description</th>
-            <th>Deadline</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (ToDoTask task in _tasks)
-        {
-            <tr>
-                <td>@task.Title</td>
-                <td>@task.IsDone</td>
-                <td>@task.Description</td>
-                <td>@task.Deadline</td>
-            </tr>
-        }
-        </tbody>
-    </table>
+    {
+        <p>
+            <em>Loading...</em>
+        </p>
+    }
+    else
+    {
+        <ul class="TodoTask">
+            @foreach (ToDoTask task in _tasks)
+            {
+                <li class="Task">
+                    <a href="#" @onclick="() => SelectTodoTask(task.Id)">
+                        <div class="round"> </div>
+                        <div class="taskText"><p>@task.Description</p></div>
+                    </a>
+                </li>
+            }
+        <!-- <ul class="plus" align="center"><a href="#"><div class="round">+</div></a> -->
+        </ul>
+        <a href="#" class="newList">
+            <div class="round">
+                <img src="Shared\img\newList.png" alt="+" align="center">
+            </div>
+        </a>
 }
 
 @code {
-    private ITaskService _service = new ToDoTaskService();
     private BaseTask[]? _tasks;
 
     protected override async Task OnInitializedAsync()
     {
         var newTask = new ToDoTask();
-        newTask.Description = "Created on page todo task"; 
+        newTask.Description = "Created on page todo task";
         await _service.CreateTaskAsync(newTask);
         _tasks = _service.GetTasksAsync().Result.ToArray();
+    }
+
+    protected void SelectTodoTask(Guid id)
+    {
+        _service.SelectedTask = _service.GetTaskAsync(id).Result as ToDoTask;
+
     }
 
 }

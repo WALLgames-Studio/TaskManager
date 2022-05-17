@@ -8,6 +8,7 @@ public class TimeTaskService : ITaskService
     private ITaskContext? _context;
     private IEnumerable<BaseTask>? _tasks;
 
+    public BaseTask? SelectedTask { get; set; }
     public TimeTaskService()
     {
         _context = new TimeTaskContext();
